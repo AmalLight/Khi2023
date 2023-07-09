@@ -1,0 +1,22 @@
+support different languages
+
+project
+  program
+    resources
+
+project has yaml to define the used language
+Pulumi has an interpreter to run your instructions for the chosen language
+
+stack is an instance for a pulumi program. ( with the parameters set )
+
+pulumi can interact with SDK without need to write the SDK code.
+
+Pulumi =
+Ansible style, executed from the client side.
+Used before and after the first initialization ( ansible deployment ).
+=> it is like Jenkins, without the web vulnerabilities?
+
+steps
+0. create an account ( optional )
+1. set on local machine ( install = cli )
+2. interact with it ( pulumi new ... pulumi up )
